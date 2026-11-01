@@ -13,7 +13,7 @@ export function mountFilters(root, ctx) {
 
     <div class="card">
       <h2>新しいフィルター</h2>
-      <div class="field"><label for="nfName">フィルター名</label><input class="input" id="nfName" placeholder="例：ガード男子" autocomplete="off"></div>
+      <div class="field"><label for="nfName">フィルター名</label><input class="input" id="nfName" placeholder="例：26年大会メンバー" autocomplete="off"></div>
       <div class="field"><label for="nfMembers">メンバー（貼り付け可・改行で次の人）</label>
         <textarea class="input" id="nfMembers" rows="5" placeholder="神戸太郎&#10;尼崎三郎&#10;甲南始"></textarea></div>
       <button class="btn btn-main" id="nfCreate" type="button">フィルターを作成</button>
